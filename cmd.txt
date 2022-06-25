@@ -1,0 +1,20 @@
+1:terraform plan
+2:terraform plan -var "varname=varValue"
+3:terraform plan -var "varName1=varValue1" -var "varName2=varValue2"
+# for copying all file from one dir to another
+4:cp -rvf oneDirName AnotherDirNam
+# for reading variable from envinoment
+5:export TF_VAR_variableName =variableValue
+
+## echo $variableName
+# terraform destro command to destroy perticular resource
+6:terraform destroy -target RESOURCE_TYPE.NAME -target RESOURCE_TYPE2.NAME
+# updates the current state in state file 
+7:terraform refresh
+# check whether the configuration is valide or not
+8:terraform validate
+# how to check whethe terraformable to rerad all variables or not // to get temporary new terminal
+9:terraform consol
+# to format all files to prper indentation
+10:terraform fmt
+
