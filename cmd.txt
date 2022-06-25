@@ -20,3 +20,6 @@
 11:ssh-keygen -t rsa
 12:ssh-keygen
 
+# to save created public and private key in current directory
+./id_rsa
+
