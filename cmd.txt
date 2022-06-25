@@ -17,4 +17,6 @@
 9:terraform consol
 # to format all files to prper indentation
 10:terraform fmt
+11:ssh-keygen -t rsa
+12:ssh-keygen
 
