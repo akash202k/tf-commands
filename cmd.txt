@@ -23,3 +23,4 @@
 # to save created public and private key in current directory
 ./id_rsa
 
+terraform init -upgrade // to math the version's 
