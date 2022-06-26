@@ -24,3 +24,9 @@
 ./id_rsa
 
 terraform init -upgrade // to math the version's 
+
+%%%%% GRAPH %%%%%
+
+## to install dependancy for graph command in terraform
+sudo yum install  graphviz
+terraform graph | dot -Tpdf > graph.pdf
