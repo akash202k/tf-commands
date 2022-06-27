@@ -30,3 +30,9 @@ terraform init -upgrade // to math the version's
 ## to install dependancy for graph command in terraform
 sudo yum install  graphviz
 terraform graph | dot -Tpdf > graph.pdf
+
+%%%% Workspace %%%%
+terraform workspace list
+terraform workspace new workSpaceName
+terraform workspace select workSpaceName
+terraform workspace select
