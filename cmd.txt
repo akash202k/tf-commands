@@ -36,3 +36,4 @@ terraform workspace list
 terraform workspace new workSpaceName
 terraform workspace select workSpaceName
 terraform workspace select
+terraform plan --var-filedev-terraform.tfvars
