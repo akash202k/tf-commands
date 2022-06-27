@@ -35,5 +35,5 @@ terraform graph | dot -Tpdf > graph.pdf
 terraform workspace list
 terraform workspace new workSpaceName
 terraform workspace select workSpaceName
-terraform workspace select
-terraform plan --var-filedev-terraform.tfvars
+
+terraform plan --var-file dev-terraform.tfvars
