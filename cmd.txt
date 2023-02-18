@@ -37,3 +37,7 @@ terraform workspace new workSpaceName
 terraform workspace select workSpaceName
 
 terraform plan --var-file dev-terraform.tfvars
+
+** state
+
+$ terraform state
